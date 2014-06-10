@@ -1,0 +1,132 @@
+﻿.field-validation-error { color:#f00 ;}
+
+
+.field-validation-valid { display: none;}
+
+
+
+.input-validation-error { border: 1px solid rgba(255, 0, 195, 0.95);
+                          background-color: #fee;
+                        }
+
+
+
+.validation-summary-errors { font-weight: bold;
+                             color: #f00;
+                           }
+
+
+
+.validation-summary-valid {   display: none; }
+
+
+
+#content {
+    width:800px;
+    height:800px;
+    margin:auto;
+      }
+
+#cabecera {
+    width:800px;
+    height:70px;
+    background-color:aqua;
+        background-image:url(IMAGENES/SUPERA.jpg);
+        background-repeat:repeat;
+        background-position:left;
+
+    }
+
+body{
+	background-color:#CCCCCC;}
+#base{
+	width:1024px;
+	height:10%;
+	margin:10px;
+	}
+#header{
+	width:1024px;
+	height:10%;
+	float:left;
+	background-color:#0099FF;
+	border-radius:40px;
+	text-align:center;
+	}
+#center{
+	width:100%;
+	height:70%;
+	float:left;
+
+}
+#sideL{
+	width:20%;
+	height:100%;
+	text-align:center;
+	float:left;
+	
+	border-radius:40px;
+}
+#centro{
+	width:60%;
+	height:100%;
+	text-align:center;
+	float:left;
+	background-color:#FFFFFF;
+	border-radius:20px;
+	}
+#sideR{
+	width:20%;
+	height:100%;
+	text-align:center;
+	float:left;
+	
+	border-radius:40px;
+}
+#footer{
+	width:100%;
+	height:5%;
+	float:left;
+	text-align:center;
+	background-color:#0099FF;
+	border-radius:40px;
+	}
+.menulista{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+li{
+	border:solid thin;
+	
+}
+.menulista a:link{
+	background-color:#036;
+	display:block;
+	color:#FFF;
+}
+.menulista a:hover{
+	background-color:#063;
+	}
+.menulista a:visited{
+	background-color:#309;
+	color:#FFF;
+	}
+.justificado{
+	text-align:justify;
+     
+}
+
+#bonita{
+
+    font-family:Algerian;
+    font-weight:500;
+    font-size:x-large;
+    color:black;
+    
+    
+    display:inline-block;
+       width: 200px;
+    margin-bottom: 10px;
+}
+
+

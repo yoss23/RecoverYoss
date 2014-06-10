@@ -1,0 +1,91 @@
+﻿@model EmployeeQuiz.Models.Employe
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <center>
+            <p><p><p><p>
+
+                <div id="base">
+
+	<div id="header"> 
+        
+       <p></p>
+        <img src="~/Photos/itgam.png" width="50" height="50"><h1 id="bonita">* I T G A M *</h1><img src="~/Photos/tics.png" width="50" height="50">
+           
+
+	</div>
+
+
+
+    
+	<div id="center">
+    
+    	<div id="sideL"> 
+        
+         <ul class="menulista">
+         
+        <li> <a href="~/Home/Index">Buscar</a></li>
+          
+         </ul>
+         
+         
+         
+      </div>
+        
+        <div id="centro">         
+
+
+
+        <p class="justificado">
+
+       @using (Html.BeginForm())
+        {
+            <span>Ingesar el codigo de empleado </span>
+            <p>@Html.TextAreaFor(m => m.Id)</p>
+            <input type="submit" value="Buscar Empleado" />
+        }
+    </div>
+        
+        <div id="sideR">
+        <ul class="menulista">
+         
+         </ul></div>
+    </div>
+    
+    <div id="footer"> <h4> INSTITUTO TECNOLOGICO GUSTAVO A MADERO</h4>
+      <p></p>
+    </div>       
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,113 @@
+﻿@model EmployeeQuiz.Models.Employe
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
+    <title>WorkerView</title>
+</head>
+<body>
+
+
+    <div>
+        <center>
+            <p><p><p><p>
+
+                <div id="base">
+
+	                                    <div id="header"> 
+        
+                                           <p></p>
+        <img src="~/Photos/itgam.png" width="50" height="50"><h1 id="bonita">* I T G A M *</h1><img src="~/Photos/tics.png" width="50" height="50">
+        
+
+	                                    </div>
+
+
+                    </div>
+    
+	<div id="center">
+    
+    	            <div id="sideL"> 
+        
+                             <ul class="menulista">
+         
+                             <li> <a href="~/Home/Index">Buscar</a></li>
+          
+                             </ul>
+         
+                    </div>
+        
+        <div id="centro">         
+
+
+
+        <p class="justificado">
+
+
+
+    <div>
+        <img src="@Url.Content(Model.PhothoPath)" alt="Sample Image" width="130" height="130" />
+        <p>
+            <b>ID:&nbsp;</b>    @Model.Id
+        </p>
+        <p><p><p>
+            <b>Nombre:</b><br /> @Model.Name
+        </p>
+
+        <p><p><p><p>
+            <b>Apellidos:</b><br> @Model.FirstLastname @Model.SecondLastname
+        </p>
+
+        <p><p><p><p>
+            <b>Salario:</b><br> @Model.Wage
+        </br>
+
+        <p><p><p><p>
+            <b>Puesto:</b><br> @Model.Position
+        </br>
+
+        <p><p><p><p>
+            <b>Sexo:</b><br /> @Model.Sex
+        </p>
+        <p><p><p><p><p>
+            <b>Foto:</b><br /> @Model.PhothoPath
+        </p>
+
+
+    </div> </div>
+        
+        <div id="sideR">
+        <ul class="menulista">
+         
+         </ul></div>
+    </div>
+                
+    <center>
+    <div id="footer"> <h4> INSTITUTO TECNOLOGICO GUSTAVO A MADERO</h4>
+      <p></p></center>
+    </div>       
+                
+</div>    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
